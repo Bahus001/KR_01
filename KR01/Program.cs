@@ -1,4 +1,5 @@
-﻿string[] FilterArrayString(string[] array)
+﻿Console.WriteLine("Введите размер массив строк и заполните его через Enter: ");
+string[] FilterArrayString(string[] array)
 {
     int count = 0;
     for (int i = 0; i < array.Length; i++)
